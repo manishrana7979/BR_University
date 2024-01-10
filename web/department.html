@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <script src="../web/Angular/LoginController.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"
+        integrity="sha512-KZmyTq3PLx9EZl0RHShHQuXtrvdJ+m35tuOiwlcZfs/rE7NZv29ygNA8SFCkMXTnYZQK2OX0Gm2qKGfvWEtRXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Angular/Module.js"></script>
+    <script src="../Angular/CollegeController.js"></script>
+    <script src="../Angular/Services.js"></script>
+    <script src="../Angular/StudentController.js"></script>
+    <script src="../Angular/ProfessorController.js"></script>
+    <script src="../Angular/CourseController.js"></script>
+  
+  <title>BR University</title>
+</head>
+
+<body ng-app="MyApp" ng-controller="course">
+  
+  <setion class="navbar">
+    <!-- <div class="navbarcontain"> -->
+
+    <div class="col-md-2">
+      <img src="img/logo.png" alt="">
+    </div>
+    <div class="col-md-7">
+      <h4>बिनोद राणा विश्वविद्यालय, हज़ारीबाग़</h4>
+      <h4>BINOD RANA UNIVERSITY, HAZARIBAGH</h4>
+    </div>
+    <div class="col-md-3">
+      <!-- <span type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" style="color: white;">Admin login</span> -->
+
+      <!-- <a class="log btn-primary" href="./admin/login.html" role="button">Admin Login</a> -->
+
+      <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.linkedin.com//"><i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.facebook.com//"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com//"><i class="fa-brands fa-instagram"></i>
+          <a href="https://www.youtube.com//"><i class="fa-brands fa-youtube"></i></a>
+          </a><a href="7979881793"><i class="fa-solid fa-phone"></i>+91 7979881793</a>
+          <span type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"
+            style="color: white;">Contact Us</span>
+    </div>
+
+  </setion>
+
+  <!-- Information Start..... -->
+  <section>
+    <div class="information">
+      <div class="container">
+        <div class="btn-group">
+          <a href="index.html"><i class="fa-solid fa-house"></i></a>
+
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+            About Us
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="about.html">About University</a>
+            <a class="dropdown-item" href="vision.html">Vission & Mission</a>
+            <a class="dropdown-item" href="#">List of Vice Chancellors</a>
+            <a class="dropdown-item" href="#">Administration</a>
+            <a class="dropdown-item" href="#">Alumni</a>
+            <a class="dropdown-item" href="#">Authority</a>
+            <a class="dropdown-item" href="#">List of Affiliated Institutes</a>
+            <a class="dropdown-item" href="#">Brochure</a>
+            <a class="dropdown-item" href="#">Administration Officers</a>
+            <a class="dropdown-item" href="#">Visitor's Gallery</a>
+            <a class="dropdown-item" href="#">Map</a>
+
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Students
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="feepay.html">Student Portal</a>
+            <a class="dropdown-item" href="feepay.html">Online Fees Payment</a>
+            <a class="dropdown-item" href="result.html">Examination Result</a>
+            <a class="dropdown-item" href="admitcard.html">Admit Card</a>
+            <a class="dropdown-item" href="notice.html">Examination Programme</a>
+            <a class="dropdown-item" href="#">Learning Resources</a>
+            <a class="dropdown-item" href="#">Placement Cell</a>
+            <a class="dropdown-item" href="feepay.html">Fee Structure</a>
+            <a class="dropdown-item" href="notice.html">Examination Calender</a>
+            <a class="dropdown-item" href="#">UG & PG Syllabus</a>
+            <a class="dropdown-item" href="#">NEP 2020 Syllabus</a>
+            <a class="dropdown-item" href="#">Plagiarism Cell</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Academic
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="department.html">Department</a>
+            <a class="dropdown-item" href="result.html">Result</a>
+            <a class="dropdown-item" href="#">NAD</a>
+            <a class="dropdown-item" href="#">Academic Calender</a>
+            <a class="dropdown-item" href="notice.html">Examination</a>
+            <a class="dropdown-item" href="#">MOOCS/Swaym</a>
+            <a class="dropdown-item" href="#">Library</a>
+            <a class="dropdown-item" href="result.html">Result</a>
+            <a class="dropdown-item" href="#">Training</a>
+            <a class="dropdown-item" href="#">University Handbook</a>
+            <a class="dropdown-item" href="#">Workshop</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+          </div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Admission
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="college.html">Collages</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+            <!-- <div class="dropdown-divider"></div> -->
+            <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+          </div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Syllabus
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">B.Arch</a>
+            <a class="dropdown-item" href="#">BBA</a>
+            <a class="dropdown-item" href="#">BCA</a>
+            <a class="dropdown-item" href="#">Hotel Management</a>
+            <a class="dropdown-item" href="#">B.Tech</a>
+            <a class="dropdown-item" href="#">Diploma</a>
+            <a class="dropdown-item" href="#">M.Tech</a>
+            <a class="dropdown-item" href="#">MBA</a>
+            <a class="dropdown-item" href="#">MCA</a>
+            <a class="dropdown-item" href="#">M.Phil</a>
+            <a class="dropdown-item" href="#">Pharmacy</a>
+            <a class="dropdown-item" href="#">Ph.D</a>
+          </div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Notification
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="notice.html">Notice</a>
+            <a class="dropdown-item" href="#">Download</a>
+            <a class="dropdown-item" href="#">E-Tenders</a>
+            <a class="dropdown-item" href="#">Current Tenders</a>
+            <a class="dropdown-item" href="#">Contract Awarded</a>
+            <a class="dropdown-item" href="#">Archive</a>
+          </div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Others
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">ACT & Statutes</a>
+            <a class="dropdown-item" href="#">Directory</a>
+            <a class="dropdown-item" href="#">Links</a>
+            <a class="dropdown-item" href="#">AMENITIES</a>
+            <a class="dropdown-item" href="#">Gallery</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Information End..... -->
+
+  <section class="aboutimgbg" style="background: url('./img/departmentbg.jpg'); color: white;">
+    <div class="col-md-18">
+      <p>Department</p>
+      <!-- <img src="img/aboutbg.jpg" alt=""> -->
+    </div>
+  </section>
+
+<!-- department list start... -->
+
+<section class="database" style="padding: 50px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="QA_table mb_30">
+
+                <table class="table">
+                  <thead>
+                      <tr style="background-color: #c61013; color: white;">
+                        <th style="width: 10px;">SNo.</th>  
+                        <th style="width: 250px;">Course Name</th>
+                          <th>Course Discription</th>
+                          <th style="width: 10px;">Apply</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr ng-repeat = "v in CourseList | filter: search">
+                        <td>{{$index+1}}</td>  
+                        <td>{{v.CourseName}}</td>
+                          <td>{{v.CourseDis}}</td>
+                          <td><a href="admissionform.html"><button type="button" style="background-color: #32c032; border-radius: 5px;">Enroll</button></a></td>
+                      </tr>  
+                  </tbody>
+              </table>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- department list end... -->
+  <!-- Footer Section Start -->
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="footer-col">
+          <h3>Quick Link</h3>
+          <div class="footer-col-details">
+            <ul>
+              <li><a href="https://www.aicte-india.org/">AICTE</a></li>
+              <li><a href="">AICTE Recommended List Of Books For UG degree Courses</a></li>
+              <li><a href="http://jutranchi.ac.in/">Jharkhand University of Technology</a></li>
+              <li><a href="#">Youth4Work Online Test</a></li>
+              <li><a href="#">Internship@ Internshala</a></li>
+              <li><a href="#">National e-Scholarship</a></li>
+              <li><a href="#"> NIRF</a></li>
+              <li><a href="#">NIRF Data 2022</a></li>
+              <li><a href="https://ekalyan.cgg.gov.in/">E-Kalyan Jharkhand</a></li>
+              <li><a href="#">AICTE Feedback</a></li>
+              <li><a href="#">Mandatory Disclosure</a></li>
+              <li><a href="#">Holiday List-2023</a></li>
+              <li><a href="#">Online Classes link</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>
+            Cell & Committee
+            <hr>
+          </h3>
+          <div class="footer-col-details">
+            <ul>
+              <li><a href="#">Disciplinary Commitee</a></li>
+              <li><a href="#">Grievance Redressal Committee</a></li>
+              <li><a href="#">Industry Institude Interaction</a></li>
+              <li><a href="#">Intrenal Complaints Committee</a></li>
+              <li><a href="#">Women's Cell</a></li>
+              <li><a href="#">Sport Committee</a></li>
+              <li><a href="#">Internal Quality Assurance Cell</a></li>
+              <li><a href="#">Overall Event Activities</a></li>
+              <li><a href="#">Online Grievance Redressal Form</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col">
+          <img src="img/logo.png" alt="logo">
+          <h3>Binod Rana University</h3>
+          <ul class="no-bullets">
+            <li><i class="fa-sharp fa-solid fa-location-dot"></i><a
+                href="https://goo.gl/maps/hLF8PAu9sjtJEafP6">Itkhori, Chatra, Jharkhand 825408</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="7979881793">+91 7979881793</a></li>
+            <li><i class="fa-solid fa-envelope"></i><a href="info@briu.ac.in">info@briu.ac.in</a></li>
+            <li><i class="fa-solid fa-earth-americas"></i><a href="www.briu.com">www.briu.ac.in</a></li>
+            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com//"><i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.facebook.com//"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com//"><i class="fa-brands fa-instagram"></i>
+                <a href="https://www.youtube.com//"><i class="fa-brands fa-youtube"></i></a>
+                <!-- <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.294620780662!2d85.1754670149919!3d24.301356384320624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f345ff8527360b%3A0x8dccfe85499380ee!2sBinod%20Rana%20%26%20Family!5e0!3m2!1sen!2sin!4v1671905774691!5m2!1sen!2sin"
+              width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe></div> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="developer">
+    <div class="col-md-12">
+      Design and Maintenance by Manish
+    </div>
+  </section>
+  <!-- Footer Section End -->
+
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

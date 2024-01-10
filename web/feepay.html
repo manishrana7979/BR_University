@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Online Fee Payment Facility :: BR University, Hazaribhagh</title>
+	<!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://examfee.ranchiuniversity.ac.in/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://examfee.ranchiuniversity.ac.in/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://examfee.ranchiuniversity.ac.in/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://examfee.ranchiuniversity.ac.in/favicon/assets/site.webmanifest">
+	<!-- VENDOR CSS -->
+	<link rel="stylesheet" href="https://examfee.ranchiuniversity.ac.in/assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://examfee.ranchiuniversity.ac.in/assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://examfee.ranchiuniversity.ac.in/assets/vendor/linearicons/style.css">
+	<link rel="stylesheet" href="https://examfee.ranchiuniversity.ac.in/assets/vendor/chartist/css/chartist-custom.css">
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="https://examfee.ranchiuniversity.ac.in/assets/css/main.css">	
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+</head>
+<body>
+	<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Examination Notice</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+        	This is to notify for information to all concerned that the <strong>last date</strong> 
+        	for filling up examination form and fee for <strong>M.A./M.Sc/M.Com. Semester-III (2021-23)
+					Regular &amp; Vocational course Examination 2022</strong> as follows:
+        </p>
+        <table class="table table-bordered">
+        	<tr>
+        		<th>Name of Examinations</th>
+        		<th>Last date for filling up of examination forms and fees</th>
+        		<th>Last date for filling up of examination forms and fees with fine @ 400.00 per examinee</th>
+        	</tr>
+        	<tr>
+        		<td>
+        			<strong>M.A./M.Sc/M.Com. Semester-III (2021-23)
+					Regular &amp; Vocational course Examination 2022</strong>
+        		</td>
+        		<td>04-01-2023</td>
+        		<td>06-01-2023</td>
+        	</tr>        	
+        </table>
+      </div>      
+    </div>
+  </div>
+</div>
+<div id="wrapper">
+	<div class="vertical-align-wrap">
+		<div class="vertical-align-middle">
+			<div class="auth-box ">
+				<div class="left">
+					<div class="content">
+						<div class="header">
+							<div class="logo text-center">
+								<img src="img/logobg copy.jpg" height="100" width="100" alt="Ranchi University">
+							</div>
+							<p class="lead">Student Details</p>
+						</div>
+						<!-- validation error -->
+                        <!-- form error -->
+                        <form class="form-auth-small" method="post">
+							<div class="form-group">
+								<label class="control-label sr-only">Learning Center/College</label>
+								<select class="form-control" name="center" required>
+								 	<option value="" selected disabled>---- Select Learning Center/College----</option>
+								 									 		<option value="1">Aditya Prakash Jalan Teachers Training College, Kudlum, Ranchi</option>
+								 										 		<option value="95">Amrita College Of Nursing, Ranchi</option>
+								 										 		<option value="96">Angel Nursing College, Simdega</option>
+								 										 		<option value="2">Aviram College of Education, Lohardaga</option>
+								 										 		<option value="55">B.N.J. College, Sisai</option>
+								 										 		<option value="56">B.S. College, Lohardaga</option>
+								 										 		<option value="53">Basia College, Basia</option>
+								 										 		<option value="97">Bethel College Of Nursing, Ranchi</option>
+								 										 		<option value="3">Bethesda Women Teachers Training College, Ranchi</option>
+								 										 		<option value="4">Bharathi College of Education, Ranchi</option>
+								 										 		<option value="54">Birsa College, Khunti</option>
+								 										 		<option value="5">Cambridge Institute of Teachers Education, Ranchi</option>
+								 										 		<option value="104">Chotanagpur Law College, Ranchi</option>
+								 										 		<option value="91">College Of Nursing, RIMS, Ranchi</option>
+								 										 		<option value="57">Degree Standard Womens College, Khunti</option>
+								 										 		<option value="101">Dental Institute,RIMS,Ranchi</option>
+								 										 		<option value="86">Department Of Performing And Fine Arts</option>
+								 										 		<option value="6">Doranda College, Ranchi </option>
+								 										 		<option value="58">Dumri College, Dumri</option>
+								 										 		<option value="7">Fatma Teachers Training College</option>
+								 										 		<option value="92">Florence College Of Nursing, Ranchi</option>
+								 										 		<option value="59">Gossner College, Ranchi</option>
+								 										 		<option value="8">Government Teacher Training College, Ranchi</option>
+								 										 		<option value="9">Government Womens Teacher Training College, Ranchi</option>
+								 										 		<option value="102">Institute Of Legal Studies, Ranchi University</option>
+								 										 		<option value="83">Institute Of Management Studies</option>
+								 										 		<option value="11">J. D. National B.Ed. College, Ranchi</option>
+								 										 		<option value="60">J.N.College Dhurwa, Ranchi</option>
+								 										 		<option value="10">Jaspuria B.Ed. College, Ranchi</option>
+								 										 		<option value="61">K.C.B. College, Bero</option>
+								 										 		<option value="12">Kartik Oraon College, Gumla</option>
+								 										 		<option value="62">Kartik Oraon College,Ratu,Ranchi</option>
+								 										 		<option value="81">KEJRIWAL INSTITUTE OF MANAGEMENT & DEVELOPMENT STUDIES</option>
+								 										 		<option value="93">Kingpin College Of Nursing, Ranchi</option>
+								 										 		<option value="63">Mandar College, Mandar</option>
+								 										 		<option value="13">Manrakhan Mahto B.Ed. College, Ranchi</option>
+								 										 		<option value="64">Maulana Azad College, Ranchi</option>
+								 										 		<option value="94">Metas Adventist College, Ranchi</option>
+								 										 		<option value="103">Model Degree College, Bano</option>
+								 										 		<option value="15">Mother Ziramani Teacher Training College, Ranchi</option>
+								 										 		<option value="14">Moti Raj Devi Teachers Training College, Ranchi</option>
+								 										 		<option value="16">N. N. Ghosh Sanatan Teachers Training College, Ranchi</option>
+								 										 		<option value="65">Nirmala College, Ranchi</option>
+								 										 		<option value="68">P.A.E.M. College, Chainpur</option>
+								 										 		<option value="67">P.P.K. College, Bundu</option>
+								 										 		<option value="17">Patel B.Ed. College, Ranchi</option>
+								 										 		<option value="69">R.L.S.Y. College, Ranchi</option>
+								 										 		<option value="18">R.T.C. B.Ed. College, Ranchi</option>
+								 										 		<option value="70">R.T.C. College, Ranchi</option>
+								 										 		<option value="90">Rupsona Nursing College, Ranchi</option>
+								 										 		<option value="71">S.G.M. College, Ranchi</option>
+								 										 		<option value="52">S.K. Bage College, Kolebira</option>
+								 										 		<option value="74">S.S. Memorial College, Ranchi</option>
+								 										 		<option value="19">Samarpandeep B.Ed. College, Ranchi</option>
+								 										 		<option value="20">Sanghamitra Teacher Training College, Ranchi</option>
+								 										 		<option value="21">Santosh College of Teachers Training & Education, Ranchi</option>
+								 										 		<option value="89">Satish Kumar Sinha Memorial College Of Nursing, Ranchi</option>
+								 										 		<option value="85">School Of Yoga </option>
+								 										 		<option value="25">Shaheed Sheikh Bhikhari College of Education, Ranchi</option>
+								 										 		<option value="22">Shaswat Institute of Teachers Education, Ranchi</option>
+								 										 		<option value="23">Shine A. R. Ansari Instt. of Health Edu. & Research Centre, Ranchi</option>
+								 										 		<option value="98">Shree Sai Nursing College, Ranchi</option>
+								 										 		<option value="72">Silli College, Silli</option>
+								 										 		<option value="73">Simdega College, Simdega</option>
+								 										 		<option value="24">Sri Ram Teachers Training College, Ranchi</option>
+								 										 		<option value="88">St. Barnabas Hospital College Of Nursing, Ranchi</option>
+								 										 		<option value="77">St. Joseph College, Torpa</option>
+								 										 		<option value="66">St. Paul College, Ranchi</option>
+								 										 		<option value="75">St. Xaviers College, Simdega</option>
+								 										 		<option value="99">Sunrise College Of Nursing, Ranchi</option>
+								 										 		<option value="76">Tana Bhagat College, Ghaghra</option>
+								 										 		<option value="78">U.K.S. Mahavidyalaya, Dakra</option>
+								 										 		<option value="26">Uday Memorial B.Ed. College, Ranchi</option>
+								 										 		<option value="28">University Department Of Anthropology</option>
+								 										 		<option value="29">University Department Of Bengali</option>
+								 										 		<option value="44">University Department Of Botany</option>
+								 										 		<option value="45">University Department Of Chemistry</option>
+								 										 		<option value="82">University Department Of Commerce</option>
+								 										 		<option value="30">University Department Of Economics</option>
+								 										 		<option value="31">University Department Of English</option>
+								 										 		<option value="87">University Department Of Fashion Design & Management</option>
+								 										 		<option value="32">University Department Of Geography</option>
+								 										 		<option value="47">University Department Of Geology</option>
+								 										 		<option value="33">University Department Of Hindi</option>
+								 										 		<option value="34">University Department Of History</option>
+								 										 		<option value="35">University Department Of Home Science</option>
+								 										 		<option value="48">University Department Of Mathematics</option>
+								 										 		<option value="36">University Department Of Philosophy</option>
+								 										 		<option value="50">University Department Of Physics</option>
+								 										 		<option value="37">University Department Of Political Science</option>
+								 										 		<option value="38">University Department Of Psychology</option>
+								 										 		<option value="84">University Department Of Public Administration</option>
+								 										 		<option value="39">University Department Of Sanskrit</option>
+								 										 		<option value="41">University Department Of Sociology</option>
+								 										 		<option value="42">University Department Of Tribal & Regional Languages</option>
+								 										 		<option value="43">University Department Of Urdu</option>
+								 										 		<option value="51">University Department Of Zoology</option>
+								 										 		<option value="27">Ursuline Womens Teachers Training College, Lohardaga</option>
+								 										 		<option value="80">WOMEN&#39;S COLLEGE, SIMDEGA</option>
+								 										 		<option value="79">Y. S. Mahavidyalaya,Dhurwa,Ranchi</option>
+								 										 </select>
+							</div>
+							<div class="form-group">
+								<label class="control-label sr-only">Examination</label>
+								<select class="form-control" name="examination" required>
+								 	<option value="" selected disabled>---- Select Examination ----</option>
+								 									 </select>								
+							</div>	
+							<div class="form-group">
+								<label class="control-label sr-only">Roll No.</label>
+								<input type="text" name="roll" class="form-control" placeholder="University Roll No." required>
+							</div>						
+							<button type="submit" class="btn btn-primary btn-block">SUBMIT DETAILS</button>														
+						</form>
+					</div>
+				</div>
+				<div class="right" style="background-image: url('img/courcebg.png');">
+					<div class="overlay" style="background: rgba(5, 65, 95, 0.92);"></div>
+					<div class="content text">
+						<h1 class="heading">Binod Rana University, Hazaribhag</h1>
+						<p style="margin-bottom: 20px;">Online Fee Payment Facility</p>
+						<p class="mb-2">
+							<small>
+								Students are requested to enter correct details and confirm the same before proceeding to payment gateway page. If your roll number is appearing as <strong>Incorrect Roll No.</strong>, please contact your learning center, college or department.
+							</small>
+						</p>
+						<p>
+							<small>
+								Kindly <strong>do not attempt</strong> to make duplicate payment of exaination fee.
+								In case of failed transaction, contact your college/department for verification and update.
+							</small>
+						</p>
+						<p>
+							<small>
+								For any query or complaint regarding fee payment, please submit a <strong>Support Ticket</strong>
+							</small>																	
+						</p>
+						<p class="text-center">
+							<a href="https://examfee.ranchiuniversity.ac.in/index.php/ticket/submit" target="_blank" class="btn btn-sm btn-default">SUBMIT SUPPORT TICKET</a>
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="text-right" style="margin-top: 10px;">
+					<span class="helper-text">
+						<a href="https://examfee.ranchiuniversity.ac.in/index.php/login/center"><i class="fa fa-lock"></i> Login for Learning Center/College</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://examfee.ranchiuniversity.ac.in/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://examfee.ranchiuniversity.ac.in/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="https://examfee.ranchiuniversity.ac.in/assets/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+	<script src="https://examfee.ranchiuniversity.ac.in/assets/vendor/chartist/js/chartist.min.js"></script>
+	<script src="https://examfee.ranchiuniversity.ac.in/assets/scripts/klorofil-common.js"></script>
+	<!-- custom script -->
+	<script type="text/javascript">
+	$('#myModal').modal('show');
+</script>
+</body>
+</html>

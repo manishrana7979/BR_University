@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle List</title>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+    <script src="module.js"></script> 
+    <script src="Service.js"></script>
+    <script src="acadmiccontroller.js"></script>
+
+
+
+</head>
+<body ng-app="MyApp" ng-controller="Acadmic">
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Acadmic Id</th>
+                <th>College Name</th>
+                <th>Principal Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="v in AcadmicList">
+                <td>{{v.acadmicID}}</th>
+                <td>{{v.CollegeName}}</td>
+                <td>{{v.PrincipalName}}</td>
+                <td>{{v.Address}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</body>
+</html>

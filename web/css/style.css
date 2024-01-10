@@ -1,0 +1,500 @@
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    /* background: url('../img/backgroundimg.jpg') no-repeat center/cover fixed; */
+  }
+  .row{
+    padding: 0px;
+    margin: 0px;
+  }
+  .carousel-event img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .navbar {
+    background-color: rgb(135, 3, 3);
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .navbar img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navbar h4 {
+    color: white;
+    text-align: left;
+  }
+
+  .navbar a {
+    color: white;
+    font-size: 17px;
+padding: 5px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 1rem 0rem;
+  }
+/* .btn-group:hover .dropdown-item{
+  display: block;
+} */
+  .dropdown-menu {
+    background-color: rgb(135, 3, 3);
+    padding: 0px;
+    /* background: url('../img/dropimg.jpg'); */
+  }
+
+
+
+/* .btn-group a :hover{
+background-color: ;
+} */
+  .btn-secondary {
+    border-color: transparent;
+  }
+
+  .btn-primary {
+    border-radius: 10px;
+    border-color: rgb(180, 154, 6);
+
+  }
+
+  /* .btn-group a:hover .dropdown-menu{
+   display: block;
+  } */
+  /* activity start... */
+  .activity{
+    /* background: url('../img/aboutbg.jpg'); */
+    padding: 0px 0px 50px 0px;
+  }
+.activity h2{
+  padding: 0px 20px;
+  margin: 10px;
+  font-size: 20;
+  text-align: center;
+  color:  rgb(196, 26, 26)
+}
+  .activity img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  /* activity ending... */
+
+/* information start.. */
+  .information {
+    text-align: center;
+    background-color: rgb(180, 154, 6);
+  }
+
+  .information a {
+    color: white;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .btn {
+    padding: 5px;
+    margin: px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .log {
+    padding: 5px;
+    margin: px;
+    background-color: #dc3545;
+    border-color: transparent;
+  }
+
+  .navbarcontain {
+    text-align: center;
+  }
+
+  .carousel-item {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* about section start... */
+
+  .aboutsile{
+  padding: 50px 0;
+  text-align: center;
+  background-size: cover !important;
+  position: relative;
+  color: white;
+}
+.aboutsile h2{
+  color: #f1c40d;
+  margin: 0 auto 20px;
+}
+.aboutsile p{
+  font-size: 20px;
+}
+.aboutsile .icon-boder{
+  height: 137px;
+  width: 137px;
+  margin: 0 auto 20px;
+  border: dotted 2px #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 124px;
+}
+.counter-value{
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 32px;
+}
+.aboutsile span{
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+/* aboutsection close.... */
+
+/* HOD's section start.. */
+
+.hod{
+  padding: 50px;
+  margin: 0px;
+  text-align: center;
+  background-size: cover !important;
+  position: relative;
+}
+.hod h2{
+  color: white;
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #45ac78;
+}
+.bdr img{
+  text-align: center;
+  width: 150px;
+  padding: 0px 0px 20px 0px;
+}
+.bdrstaght{
+  text-align: right;
+}
+.hod h3{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+}
+
+/* HOOD's section end.... */
+  /* .about {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: red;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  } */
+
+  /* .container img {
+    width: 100%;
+    height: 300px;
+  } */
+
+  /* .container p {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    font-size: 20px;
+  } */
+
+  .btnmore {
+    padding: 5px;
+    margin: px;
+    background-color: rgb(135, 3, 3);
+    border-radius: 10px;
+  }
+
+  .btnmore a {
+    color: white;
+  }
+
+  .bg-light {
+    background-color: rgb(135, 3, 3);
+  }
+
+
+
+  .btn a {
+    color: white;
+  }
+
+  /* .event {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: red;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  } */
+
+  /* .eventcontainer {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .eventcontainer h3 {
+    text-align: center;
+    color: rgb(180, 154, 6);
+  } */
+
+  .icon {
+    background-color: rgb(135, 3, 3);
+  }
+
+  .notice {
+    background: url("../img/noticebg.png");
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: red;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.notice .row{
+  
+    /* max-width: 0px;
+    min-height: 0px; */
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #031421;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px grey, 0px -5px 30px grey;
+
+}
+  .notice h3 {
+    text-align: center;
+    color: rgb(180, 154, 6);
+  }
+
+  .notice img {
+    width: 40px;
+    height: 30px;
+  }
+
+  /* Flip card  cord start */
+  .quotes {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: red;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color: rgb(135, 3, 3);
+    color: rgb(180, 154, 6);
+    transform: rotateY(180deg);
+    text-align: center;
+  }
+
+  .flip-card-back p {
+    text-align: center;
+    font-size: large;
+  }
+
+  .notice marquee a {
+    padding: 5px;
+    color: rgb(23, 2, 79);
+  }
+
+  /* end */
+
+  /* footer start... */
+  .footer {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(4,12,31);
+    background: url('../img/footerbg.jpg');
+    background-position: fixed;
+
+  }
+
+  .container-fluid {
+    padding: 50px 50px 0px 50px;
+    margin: 0px;
+    color: rgb(229 88 88);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .footer-col-details li {
+    text-align: left;
+    color: rgb(247, 240, 240);
+    padding: 0px;
+  }
+
+  .footer-col-details a {
+    color: white;
+  }
+
+  .footer-col-details ul {
+    list-style-type: disc;
+    padding: 20px 50px;
+  }
+
+  .container-fluid img {
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+
+  }
+
+  .no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .no-bullets a {
+    color: white;
+  }
+
+  .no-bullets i {
+    color: rgb(240, 172, 172);
+  }
+  .developer{
+    text-align: center;
+    font-size: large;
+    background-color: rgb(85, 65, 128);
+    color: white;
+  }
+
+  /* footer end... */
+
+  /* about page start...*/
+  .title h2{
+    padding: 0px;
+    text-align: left;
+    color: rgb(135, 3, 3);
+  }
+  .line{
+    width: 140px;
+    height: 5px;
+    background-color: #ff8d22;
+    margin: 0px;
+}
+.breadcrumb{
+  padding: 5px 150px;
+  margin: 0px;
+}
+  .title .container {
+    text-align: justify;
+    padding: 20px;
+    color: blue;
+    font-size: 18px;
+  }
+
+  .title .container img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .aboutimgbg {
+    text-align:left;
+    padding: 200px;
+    margin: 0;
+    width: 100%;
+    background-size: cover !important;
+    position: relative;
+    height: 400px;
+    /* background: url('../img/aboutusbg.jpeg'); */
+    font-size: 50px;
+    color:white;
+  }
+  .newupdate img{
+    width: 40px;
+    height: 40px;
+  }
+
+  /* hjjjjjjjjjjjjjjjjjjjjj */
+.gallery img{
+  padding: 0px;
+  margin: 0px;
+  height: 245px;
+  width: 200px;;
+}
+.result{
+  padding: 10px;
+  margin: 80px 50px 350px;
+}
+.result label{
+  color: #cc061a;
+  font-size: 20px;
+}
+.result button{
+  background-color: #45ac78;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+.contactus label{
+  color: rgb(24, 3, 77);
+  padding: 0px;
+}
+ .contactus h5{
+  text-align: center;
+ }

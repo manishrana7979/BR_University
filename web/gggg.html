@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimal-ui" /><title>
+	Student Result
+</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GS8SCXFM3T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-GS8SCXFM3T');
+    </script>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="assets/css/style.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous" /><link href="assets/plugins/sweet-alert2/sweetalert2.min.css" rel="stylesheet" type="text/css" /><link href="assets/css/app_style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .wrapper-page {
+            margin: 5.5% auto;
+            max-width: 70%;
+            position: relative;
+        }
+
+        .form-control {
+            height: auto !important;
+        }
+
+        .select2-container--default .select2-selection--single {
+            height: 36px;
+        }
+
+            .select2-container--default .select2-selection--single .select2-selection__rendered {
+                line-height: 34px;
+            }
+
+            .select2-container--default .select2-selection--single .select2-selection__arrow {
+                top: 4px;
+            }
+
+        @media (max-width:1200px) {
+            .wrapper-page {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width:765px) {
+            .account-card .account-card-content {
+                padding: 10px;
+            }
+
+            .ss {
+                padding: 2px;
+            }
+        }
+    </style>
+    
+
+
+    <style>
+        .card {
+            border: 1px;
+            border-style: solid;
+            margin-top: 20px;
+        }
+
+            .card .card-header {
+                background-color: #ebebeb !important;
+            }
+
+        table {
+            border: none !important;
+        }
+
+            table td {
+                border: none !important;
+            }
+    </style>
+</head>
+<body>
+    <form method="post" action="./StudentResult" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="BOpoNHVcbR2gaiwKXeL0ey9l9PcIXdMEc22rTazBQ8CKpdxvsImbofGYSULTDFUlmDPRJCamEvZz4Yw8h/ewpJSdxTfwbOYfsGm6omBV0rixx7qqcldvbL99STY6DxRQTQtkzLN2fZSp/1KOgKn1jWgOMwgJdCLmLjaeBs+cayCrT0UvvT38P0daQa6ELsmQtNS2N2ZPX15j13vL2QP/sfiog7IPD9fzyreoP6OY+/llVxpCOYnoQLXgyzX66Vg7o7wgdUyC6sXhkpl7jW/EDi/J6WVH95JjYXnCEPGUCmeIALnw+P8Y8/kNXaxsHsnZK1+oJCsz79NEr+P0/68fjn4bB9cCgmz+rQG/fPrCqxs=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZI-ztBpqzdL12_FyoeOD3QjgN9M3bI19aco6LZctSnjtaaaPLKpViVS7EEA7f1ZaRg2&amp;t=637709339435741741" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1G7ytKwVcoixeF9hZ54I6gsGzpRSpZvEdkODsjIiF5Qi0iDI4KXtTotOOorqF7sSdD8sSgwHAECIKMvbMogML5Qg-PCw_YyPtJVQVJCvmh7maC2ON-jioIVLgzN0IGTZjQ2&amp;t=125d5fef" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvkFrqlkOraFLzRcxptiX67t83e2pgvA0C6D-RNkonbnWCbYDpTmZ4B-2XR3erEmS-P_CEn47c0iWLPPc_QXLFv6D_6BcuOdY5C1inGynFfF4SGcb5nKYEWbllCfbkkncnUwauzyuTFinSDE5Wc6MR6w1&amp;t=ffffffffe6d5a9ac" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OCWJaTBvbc1OARBm8MRZw9YNQVa_RIbiAiwpOZEqv7IkKszbrV8ekAn0xcDtOa-bCafuqsXUAClAigMzqZs2Qo1_G906aKKAVe_3DOY7fahY9yMYC1pbxjaFsPCJME8P-F8DIEESJKW_TzWNdyd7JMY1&amp;t=ffffffffe6d5a9ac" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eE6V8nDbUVn0gtG6hKNX_PNqJWIdn-7V5iIwOans_RNSkJyr6511dfuRfJlzRvWNHU9p9Y-fkBCXeuDRDQSh0zmWxd7gCO3hza066UXTQ7UiaonFpsvdqpVlzRVc3B4c0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mcAASOSteirJeuV-3by3Ua_NamoV-9ZYoezrdt9zfqs38hfAA4nuLr4s2njbWRNPcCAubS5WZNKU-LyV2jsuvnUVQXnJMw4V6n5D8tghzAE1&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=jwf4VSQi7LeShc44FJ-gAaW72j1YDt5J7NYOa6YGgxdRlrlESb-f7eYVFOYvNtfC9cJsnxzeXQPSLUKvt89-XeGWK10txG2j_-5uqFYoFxMqHBHCJotBdcbBtS3LSGSG0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HEFpVKbnoeQjkjHkFKu3MHps7YqU5R32eIHkQdKBT9vxyBhEgWVZgYmcLzZ1tcKySPyamz3I31zGlBSGLC5LcFflZnVrEzbR8LENzj7Bv_9oIAbKiynvDvvnYtgXdwNr0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=V9BZfzKzDCsxAStwHbjCaCSRt7Eq8PA3IdxcbcmghlSW9_gDyvaZVJ-pzCN5_fLTdzuPJP5Fr-_r6Pg6uV86xf9o4yRdZb0ilCTy7o9NEhH2SWfhP2a8Lgk6hXt_zjz60&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nai7mGcYyE2dix_TwveLDTBVqkeOkVYdXCh55qswiHgu9UZZC-AK_SLCvxflveWbbK7oSTqebO-wGUkedB-MZP_AIB_OjqLrzgAT6iqRv0Af1PKzdv653aEhUH7fKhFk0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LQ1q2RBSthBAZhliMjtG_w-98SS3KY37yBYQ_3UYzeeHAOP6hqnOD6yeM6o6rPjbOx7xUuWfIjiNxZjajSDwZsTRrO7QRw7cu32jUi-8M7VAETlfevpPVtlkuPjMFuC90&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yFN8H9hq0hejoFW9beRmou-ESDo8o75zHrCtz73WK_4JZ2M6M3ZXm7E8MQcKuUUm1b4T6HGrY48IS2cStiFe7vwQVjNl9lYHnZDozmwT-bicDRh3ZJ46MMX7e1sytnjt0&amp;t=7d5986a" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2790FBE5" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="dzJ9lBwtV+T9uiZ8f39qV3YC41BTYUGumS7epl+g0cJfniHXF3RTvVGNE0R0ZiFkxw2ffH3g6q5cWbU9LQhc8R1EM953iIufxc5xkhtFtxHyP5PaRI6W13aQzjDKARBQdUlMCCtQvZ5n8Frl/0Yr8kC9FeTCzN+fJjOyXQWsX5Y=" />
+</div>
+        <div id="wrapper">
+            <div style="margin-top: 30px; margin-left: 30px">
+                <a href="http://www.ptuexam.com">
+                    <!-- LOGO -->
+                    <div style="display: inline-block; margin-top: 5px">
+                        <img src='/assets/images/logo.gif' alt="user" width="55" height="60" /></div>
+                    <div style="display: inline-block; margin-left: 10px; vertical-align: top; width: 65%">
+                        <div style="font-size: 20px; color: navy; vertical-align: top;">ਆਈ.ਕੇ. ਗੁਜਰਾਲ ਪੰਜਾਬ ਟੈਕਨੀਕਲ ਯੂਨੀਵਰਸਿਟੀ</div>
+                        <div style="font-size: 22px; color: navy; vertical-align: top">I.K. Gujral Punjab Technical University</div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div>
+                <div class="row align-items-center">
+                    <div class="col-sm text-center">
+                        <h2 id="PageHeader" style="color: red">Student Result</h2>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="content-page-support">
+
+                <!-- Start content -->
+                <div class="content">
+                    <div id="PageHeaderContainer" class="container-fluid">
+
+                        <hr style="height: 1px; border: 0; background-color: #ececf1" />
+                    </div>
+                    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl11', 'form1', ['tctl00$ContentPlaceHolder1$ctl00','ContentPlaceHolder1_ctl00'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+                    
+    <div id="ContentPlaceHolder1_ctl00">
+	
+            <script type="text/javascript">
+                function pageLoad() {
+                    $(document).ready(function () {
+
+
+                        $("#txtdob").datepicker({
+                            maxDate: "-2Y",
+                            minDate: "-100Y",
+                            yearRange: "-100:-2",
+                            changeMonth: true,
+                            changeYear: true
+                        });
+
+
+
+                    });
+                }
+            </script>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Enter Your Roll No:</label>
+                        <input name="ctl00$ContentPlaceHolder1$txtRollNo" type="text" maxlength="15" id="ContentPlaceHolder1_txtRollNo" placeholder="Enter Roll No..." autocomplete="Off" />
+                        <span id="ContentPlaceHolder1_ctl02" class="text-danger" style="display:none;">Enter Roll No</span>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Enter Date of Birth(MM/DD/YYYY):</label>
+                        <input name="ctl00$ContentPlaceHolder1$txtdob" type="text" maxlength="10" id="txtdob" placeholder="Enter Date of Birth(MM/DD/YYYY)" autocomplete="Off" />
+                        <span id="ContentPlaceHolder1_ctl03" class="text-danger" style="display:none;">Enter DOB</span>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-12 text-right">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnSearch" value="Show Details" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSearch&quot;, &quot;&quot;, true, &quot;validate&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnSearch" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    
+                    
+                </div>
+            </div>
+
+        
+</div>
+
+
+
+                </div>
+
+                <!-- content -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+            <footer class="footer" style="left: 0px !important;">© 2019 Ptuexam <span class="d-none d-sm-inline-block">- Crafted with <i class="mdi mdi-heart text-danger"></i>by www.ptuexam.com</span>.</footer>
+        </div>
+
+        
+        <div id="UpdateProgress1" style="display:none;z-index: 9999">
+	
+                <div id="loader-wrapper">
+                    <div id="loader">
+                        <img src='/assets/images/loading_main.svg'>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+            
+</div>
+        
+        
+
+        <script src='/assets/js/jquery-3.5.1.min.js'></script>
+        <script src='/assets/js/bootstrap.bundle.min.js'></script>
+        <script src='/assets/plugins/sweet-alert2/sweetalert2.min.js'></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+        
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_ctl02"), document.getElementById("ContentPlaceHolder1_ctl03"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolder1_ctl02 = document.all ? document.all["ContentPlaceHolder1_ctl02"] : document.getElementById("ContentPlaceHolder1_ctl02");
+ContentPlaceHolder1_ctl02.controltovalidate = "ContentPlaceHolder1_txtRollNo";
+ContentPlaceHolder1_ctl02.focusOnError = "t";
+ContentPlaceHolder1_ctl02.errormessage = "Enter Roll No";
+ContentPlaceHolder1_ctl02.display = "Dynamic";
+ContentPlaceHolder1_ctl02.validationGroup = "validate";
+ContentPlaceHolder1_ctl02.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_ctl02.initialvalue = "";
+var ContentPlaceHolder1_ctl03 = document.all ? document.all["ContentPlaceHolder1_ctl03"] : document.getElementById("ContentPlaceHolder1_ctl03");
+ContentPlaceHolder1_ctl03.controltovalidate = "txtdob";
+ContentPlaceHolder1_ctl03.focusOnError = "t";
+ContentPlaceHolder1_ctl03.errormessage = "Enter DOB";
+ContentPlaceHolder1_ctl03.display = "Dynamic";
+ContentPlaceHolder1_ctl03.validationGroup = "validate";
+ContentPlaceHolder1_ctl03.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_ctl03.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('ContentPlaceHolder1_ctl02').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_ctl02'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {"id":"ContentPlaceHolder1_FilteredTextBoxExtender1","validChars":"0123456789"}, null, null, $get("ContentPlaceHolder1_txtRollNo"));
+});
+
+document.getElementById('ContentPlaceHolder1_ctl03').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_ctl03'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {"id":"ContentPlaceHolder1_FilteredTextBoxExtender2","validChars":"0123456789/"}, null, null, $get("txtdob"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":0,"dynamicLayout":true}, null, null, $get("UpdateProgress1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AlwaysVisibleControlBehavior, {"horizontalSide":1,"id":"AlwaysVisibleControlExtender5","verticalSide":1}, null, null, $get("UpdateProgress1"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
