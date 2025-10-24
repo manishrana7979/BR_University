@@ -58,4 +58,39 @@ npm install
 
 # Start the server
 npm start
+```
+📸 Project Preview
 
+
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/41bfaced-15ad-49d5-8867-1ec3a54430b7" />
+
+
+🌟 Highlights
+
+Designed a full-stack architecture combining frontend and backend technologies.
+
+Integrated real-time academic updates and secure authentication.
+
+Delivered a clean, responsive, and user-friendly interface.
+
+Focused on scalability, modularity, and performance.
+
+🤝 Contributing
+
+Contributions are always welcome!
+If you’d like to suggest improvements or add new features:
+
+Fork the repository 🍴
+
+Create a new branch (feature/your-feature-name)
+
+Commit your changes (git commit -m 'Add new feature')
+
+Push to the branch (git push origin feature/your-feature-name)
+
+Open a Pull Request 🎉
+
+📬 Contact
+
+👤 Manish Rana
+📧 manishrana1036@gmail.com
