@@ -65,24 +65,26 @@ npm start
 <img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/41bfaced-15ad-49d5-8867-1ec3a54430b7" />
 
 
-<h3>🌟 Highlights</h3>
+## 🌟 Highlights  
 
-Designed a full-stack architecture combining frontend and backend technologies.
-Integrated real-time academic updates and secure authentication.
-Delivered a clean, responsive, and user-friendly interface.
-Focused on scalability, modularity, and performance.
+- Designed a **full-stack architecture** combining frontend and backend technologies.  
+- Integrated **real-time academic updates** and **secure authentication**.  
+- Delivered a clean, **responsive, and user-friendly interface**.  
+- Focused on **scalability, modularity, and performance**.  
 
-<h3>🤝 Contributing</h3>
+---
 
-Contributions are always welcome!
-If you’d like to suggest improvements or add new features:
+## 🤝 Contributing  
 
-Fork the repository 🍴
-Create a new branch (feature/your-feature-name)
-Commit your changes (git commit -m 'Add new feature')
-Push to the branch (git push origin feature/your-feature-name)
+Contributions are always welcome!  
+If you’d like to suggest improvements or add new features:  
 
-Open a Pull Request 🎉
+1. **Fork the repository** 🍴  
+2. **Create a new branch:** `feature/your-feature-name`  
+3. **Commit your changes:** `git commit -m 'Add new feature'`  
+4. **Push to the branch:** `git push origin feature/your-feature-name`  
+5. **Open a Pull Request** 🎉  
+
 
 📬 Contact
 
