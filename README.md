@@ -45,6 +45,7 @@ It simplifies operations like admissions, course registration, student data mana
 
 Follow the steps below to run this project locally 👇  
 
+
 ```bash
 # Clone the repository
 git clone https://github.com/manishrana7979/university-management-system.git
@@ -58,4 +59,3 @@ npm install
 # Start the server
 npm start
 
-![image](https://github.com/manishrana7979/BR_University/assets/72984339/4b865e46-d7c2-4622-a10e-8ed66c577a4f)
