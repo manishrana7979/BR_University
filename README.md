@@ -60,18 +60,6 @@ Follow the steps below to run this project locally 👇
 
 ---
 
-## 🤝 Contributing  
-
-Contributions are always welcome!  
-If you’d like to suggest improvements or add new features:  
-
-1. **Fork the repository** 🍴  
-2. **Create a new branch:** `feature/your-feature-name`  
-3. **Commit your changes:** `git commit -m 'Add new feature'`  
-4. **Push to the branch:** `git push origin feature/your-feature-name`  
-5. **Open a Pull Request** 🎉  
-
-
 📬 Contact
 
 👤 Manish Rana<br>
