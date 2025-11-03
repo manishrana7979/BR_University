@@ -45,20 +45,6 @@ It simplifies operations like admissions, course registration, student data mana
 
 Follow the steps below to run this project locally 👇  
 
-
-```bash
-# Clone the repository
-git clone https://github.com/manishrana7979/university-management-system.git
-
-# Navigate into the project folder
-cd university-management-system
-
-# Install dependencies
-npm install
-
-# Start the server
-npm start
-```
 📸 Project Preview
 
 
