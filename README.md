@@ -45,7 +45,7 @@ It simplifies operations like admissions, course registration, student data mana
 
 Follow the steps below to run this project locally 👇  
 
-📸 Project 
+📸 Project Preview
 
 
 <img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/41bfaced-15ad-49d5-8867-1ec3a54430b7" />
