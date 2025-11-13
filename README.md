@@ -4,7 +4,6 @@
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%2C%20CSS%2C%20JS-blue?style=flat-square&logo=javascript)  
 ![Database](https://img.shields.io/badge/Database-MySQL-orange?style=flat-square&logo=mysql)  
 ![Deployment](https://img.shields.io/badge/Deployed%20On-Netlify-brightgreen?style=flat-square&logo=netlify)  
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)  
 
 ---
 
